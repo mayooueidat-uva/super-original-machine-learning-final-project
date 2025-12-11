@@ -11,6 +11,9 @@ Data/*.pkl
 Data/*.pt
 Data/*.png
 Data/*.json
+# Allow committed training subsets explicitly
+!Data/train*.csv
+!Data/train*.pkl
 
 # OS / misc
 .DS_Store
