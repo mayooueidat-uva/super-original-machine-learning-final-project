@@ -1,0 +1,17 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data and model artifacts (track only curated samples explicitly)
+Data/*.csv
+Data/*.pkl
+Data/*.pt
+Data/*.png
+Data/*.json
+
+# OS / misc
+.DS_Store
+
