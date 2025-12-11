@@ -1,0 +1,60 @@
+{
+  "logistic_regression": {
+    "params": {
+      "classifier__C": "1",
+      "classifier__penalty": "l1"
+    },
+    "cv_score": 0.9337254545660573,
+    "cv_metrics": {
+      "accuracy": 0.9104437010822819,
+      "precision": 0.6614272073276724,
+      "recall": 0.4218039587531113,
+      "f1": 0.5148783719566062,
+      "roc_auc": 0.9337254545660573
+    }
+  },
+  "svm": {
+    "params": {
+      "kernel": "linear",
+      "C": "1"
+    },
+    "cv_score": 0.9309606125134818,
+    "cv_metrics": {
+      "accuracy": 0.9041656547935286,
+      "precision": 0.6511052379015875,
+      "recall": 0.323279621370773,
+      "f1": 0.43155413229121437,
+      "roc_auc": 0.9309606125134818
+    }
+  },
+  "gradient_boosting": {
+    "params": {
+      "classifier__learning_rate": "0.1",
+      "classifier__max_depth": "5",
+      "classifier__min_samples_leaf": "4",
+      "classifier__min_samples_split": "5",
+      "classifier__n_estimators": "150"
+    },
+    "cv_score": 0.946961162328899,
+    "cv_metrics": {
+      "accuracy": 0.9148833763646559,
+      "precision": 0.6471426043685498,
+      "recall": 0.5384895104895104,
+      "f1": 0.587706326577486,
+      "roc_auc": 0.946961162328899
+    }
+  },
+  "neural_network": {
+    "params": {
+      "hidden_dim1": "64",
+      "hidden_dim2": "32",
+      "dropout_rate": "0.4",
+      "learning_rate": "0.0005",
+      "batch_size": "64"
+    },
+    "cv_score": 0.9412574180511862,
+    "cv_metrics": {
+      "roc_auc": 0.9412574180511862
+    }
+  }
+}
